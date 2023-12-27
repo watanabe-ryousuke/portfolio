@@ -156,25 +156,25 @@
 
       <!-- contact -->
       <section class="contact section" id="contact">
-        <div class="container">
+        <div id="contact-form" class="container">
           <h2 class="title">CONTACT</h2>
           <iframe name="to_success" style="display:none;" onload="if(submitted){window.location='success.html';}"></iframe>
           <form method="POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfkIdDuGIcuk-bF79vDzFbQVBfk5iXyCj4BqXMdGzmzCe0vJw/formResponse?embedded=true" target="to_success" onsubmit="submitted=true;">
         		<table>
-        			<tr><th>お名前</th><td><input type="text" name="entry.1775205620"></td></tr>
-              <tr><th>会社名</th><td><input type="text" name="entry.419154671"></td></tr>
-        			<tr><th>メールアドレス</th><td><input type="email" name="entry.40825966"></td></tr>
+        			<tr><th>お名前<p style="color:red;font-size:0.8em;">※必須</p></th><td><input id="box" type="text" name="entry.1775205620"></td></tr>
+              <tr><th>会社名</th><td><input id="box" type="text" name="entry.419154671"></td></tr>
+        			<tr><th>メールアドレス<p style="color:red;font-size:0.8em;">※必須</p></th><td><input id="box" type="email" name="entry.40825966"></td></tr>
         			<tr>
-        				<th>ご用件</th>
+        				<th>ご用件<p style="color:red;font-size:0.8em;">※必須</p></th>
         				<td>
         					<label><input type="radio" name="entry.1527588218" value="ご依頼">ご依頼</label>
         					<label><input type="radio" name="entry.1527588218" value="お問い合わせ">お問い合わせ</label>
                   <label><input type="radio" name="entry.1527588218" value="その他">その他</label>
         				</td>
         			</tr>
-        			<tr><th>内容</th><td><textarea name="entry.1764265077_sentinel"></textarea></td></tr>
+        			<tr><th>内容<p style="color:red;font-size:0.8em;">※必須</p></th><td><textarea id="box" name="entry.1764265077_sentinel"></textarea></td></tr>
         		</table>
-        		<input class="submit-btn" type="submit" value="いっけー">
+        		<input class="submit-btn" type="submit" value="送信">
         	</form>
         </div>
       </section>
