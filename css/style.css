@@ -477,6 +477,7 @@ textarea {
   /*  メインビジュアル */
   .mv {
     height: 40vh;
+    min-height: 200px;
   }
 
   .mv-container {
