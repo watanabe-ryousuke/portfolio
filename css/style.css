@@ -503,6 +503,7 @@ textarea {
   }
 
   .works-list {
+    display: block;
     justify-content: space-between;
   }
 
