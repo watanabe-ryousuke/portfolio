@@ -298,6 +298,7 @@ textarea {
 }
 
 .submit-btn {
+  margin: 1em 0;
   display       : inline-block;
   border-radius : 5%;          /* 角丸       */
   font-size     : 18pt;        /* 文字サイズ */
