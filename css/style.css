@@ -270,12 +270,25 @@ img {
   text-align: center;
 }
 
+#contact-form {
+  text-align: center;
+}
+
 .contact-item:not(:last-child) {
   margin-right: 10px;
 }
 
 .contact-text {
   margin-top: 10px;
+}
+
+#box {
+    border: solid black 1px;
+  }
+
+#contact-form th{
+   padding:8px 0;
+　 vertical-align:top;
 }
 /*--------------------------------
  ページトップ
