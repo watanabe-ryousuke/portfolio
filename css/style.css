@@ -290,6 +290,12 @@ img {
    padding:8px 0;
 　 vertical-align:top;
 }
+
+textarea {
+  resize: both;
+  width: 100%;
+  height: 500px;
+}
 /*--------------------------------
  ページトップ
 ---------------------------------*/
