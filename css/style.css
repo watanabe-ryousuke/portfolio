@@ -271,7 +271,7 @@ img {
 }
 
 #contact-form {
-  text-align: center;
+  margin: auto;
 }
 
 .contact-item:not(:last-child) {
