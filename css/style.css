@@ -288,6 +288,7 @@ img {
 }
 
 #box {
+   min-width: 10rem;
    width: 80%;
    border: solid black 1px;
   }
@@ -306,7 +307,6 @@ textarea {
   margin: 1em 0 0 0;
   resize: both;
   max-width: 100%;
-  min-width: 8rem;
   max-height: 300px;
   min-height: 2.5rem;
 }
