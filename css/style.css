@@ -275,6 +275,7 @@ img {
 }
 
 #contact-form {
+  width: 80%;
   margin: auto;
 }
 
@@ -287,10 +288,12 @@ img {
 }
 
 #box {
-    border: solid black 1px;
+   height: 1.5rem;
+   border: solid black 1px;
   }
 
 #contact-form th{
+   width: 8rem; 
    padding:8px 0;
 　 vertical-align:top;
 }
