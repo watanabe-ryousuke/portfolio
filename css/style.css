@@ -288,9 +288,13 @@ img {
 }
 
 #box {
-   height: 1.5rem;
+   width: 80%;
    border: solid black 1px;
   }
+
+.single-box {
+  height: 1.5rem;
+}
 
 #contact-form th{
    width: 8rem; 
