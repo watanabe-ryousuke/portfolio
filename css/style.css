@@ -303,9 +303,11 @@ img {
 }
 
 textarea {
+  margin: 1em 0 0 0;
   resize: both;
   max-width: 100%;
   max-height: 300px;
+  min-height: 2.5rem;
 }
 
 .submit-btn {
