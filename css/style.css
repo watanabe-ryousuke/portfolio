@@ -308,7 +308,7 @@ textarea {
   resize: both;
   max-width: 100%;
   max-height: 300px;
-  min-height: 2.5rem;
+  min-height: 4rem;
 }
 
 .submit-btn {
