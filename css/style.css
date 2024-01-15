@@ -294,7 +294,7 @@ img {
   }
 
 .single-box {
-  height: 1.5rem;
+  height: 2rem;
 }
 
 #contact-form th{
@@ -308,7 +308,7 @@ textarea {
   resize: both;
   max-width: 100%;
   max-height: 300px;
-  min-height: 4rem;
+  min-height: 6rem;
 }
 
 .submit-btn {
